@@ -1,0 +1,65 @@
+2023-11-30 17:06:01	-	chaotic_bardeen	-	2e38607b45e4b131138e74b6da5defa0	02af26ea-e7c7-48ba-bc5e-300dd4094396	nextflow run workflows/mtbcore.nf
+2023-11-30 17:09:08	2.9s	sad_engelbart	ERR	e0530a8daa250a3aec750e47f20c1a64	dee3f902-0de3-44ac-92d7-c1a93828a391	nextflow run workflows/mtbcore.nf
+2023-11-30 17:17:33	3s	distraught_newton	ERR	875f4072572e80ee24b5cda0fb0a98e8	a00de3fa-c14c-49b2-835c-6f1d9f53a806	nextflow run workflows/mtbcore.nf
+2023-11-30 17:18:24	2.6s	sharp_torvalds	OK	4ad20c87bba8af4262a3a6a0c996c556	bb1e06f9-7947-449c-9fee-b1d6f07bf03a	nextflow run workflows/mtbcore.nf
+2023-11-30 17:22:12	2.4s	admiring_khorana	ERR	0ed4ad47523ce60cb22ed3e2b5b109c2	c7653a70-58d6-4789-b11c-cfa23a9231e8	nextflow run workflows/mtbcore.nf
+2023-11-30 17:23:23	2.9s	tiny_shirley	ERR	875f4072572e80ee24b5cda0fb0a98e8	6c14d28f-8369-4af8-bda1-81998c5f4a99	nextflow run workflows/mtbcore.nf
+2023-11-30 17:28:03	-	awesome_rosalind	-	69dc9ce4b2b50af3c37f4f6c1c86ee76	fb2ee321-5dbf-41a2-aa0c-79f978be3499	nextflow run workflows/mtbcore.nf
+2023-11-30 17:28:19	1.6s	insane_waddington	OK	291d3847fffda8e4be7682efff54c333	36bc6dc5-4dbc-4809-9f7a-0497f0fb0aed	nextflow run workflows/mtbcore.nf
+2023-11-30 18:07:33	2.6s	confident_lamarr	ERR	e2c613e9d0db7e247bc2821c2b863cfb	ffb0208a-1cc6-4c04-aa5b-e35d1328275e	nextflow run workflows/mtbcore.nf
+2023-11-30 18:07:58	2s	small_hugle	OK	ac4da7d0829f7f84e67032371332bbc6	57b94de1-c456-4bc9-a093-20a38c735ac8	nextflow run workflows/mtbcore.nf
+2023-11-30 18:08:28	2s	adoring_planck	OK	4d26054523a79f81a2762cbe31fc67ac	f815c70a-17b4-4a94-9619-4b10c5d733a2	nextflow run workflows/mtbcore.nf
+2023-11-30 18:08:57	2.1s	focused_bassi	ERR	fb51a38abde0e0c08dc366142749e566	11c38e41-806d-4a86-b25f-9e2c01eab90e	nextflow run workflows/mtbcore.nf
+2023-11-30 18:09:25	1.9s	astonishing_poisson	OK	4d26054523a79f81a2762cbe31fc67ac	97326052-266b-45bf-837e-325410f24dac	nextflow run workflows/mtbcore.nf
+2023-11-30 18:09:39	2.2s	agitated_noether	OK	ac4da7d0829f7f84e67032371332bbc6	aafd891d-4935-45f1-89a4-2c9841cea0b7	nextflow run workflows/mtbcore.nf
+2023-11-30 18:20:44	-	maniac_rutherford	-	1b17805c0143e037f2df95ae5157df96	b1833f21-f217-427d-9ad3-b6c09ddcc90e	nextflow run workflows/mtbcore.nf
+2023-11-30 18:24:30	5.2s	stoic_wing	ERR	1b17805c0143e037f2df95ae5157df96	178ce9b5-5294-401a-957c-acf3118862ac	nextflow run workflows/mtbcore.nf -c nextflow.config
+2023-11-30 18:25:08	6.7s	angry_bartik	OK	1b17805c0143e037f2df95ae5157df96	c281a94b-53c9-480c-98b6-b95b61140209	nextflow run workflows/mtbcore.nf -c nextflow.config
+2023-11-30 18:39:27	-	dreamy_blackwell	-	c76c9449416e4f4fee22f12e2a993f9e	11b6f37b-70e1-4f35-8c6c-f356619a025b	nextflow run workflows/mtbcore.nf -c nextflow.config
+2023-11-30 18:49:50	-	scruffy_lattes	-	5afcb925c266c7e238cb7c46d6ebcd71	2f198931-0933-4380-8a1d-5a84e31cce1c	nextflow run workflows/mtbcore.nf -c nextflow.config
+2023-11-30 18:50:20	-	clever_booth	-	1b17805c0143e037f2df95ae5157df96	070e108e-f77d-4208-912f-e19cd1c39c04	nextflow run workflows/mtbcore.nf -c nextflow.config
+2023-11-30 18:51:24	6.4s	astonishing_rubens	OK	1b17805c0143e037f2df95ae5157df96	595868ad-8e51-4503-aba1-239483c6fc9d	nextflow run workflows/mtbcore.nf -c nextflow.config
+2023-11-30 18:53:03	-	sleepy_bassi	-	c76c9449416e4f4fee22f12e2a993f9e	361be589-5993-4936-b120-3dbfc83da44a	nextflow run workflows/mtbcore.nf -c nextflow.config
+2023-11-30 18:53:36	5.7s	dreamy_waddington	ERR	c76c9449416e4f4fee22f12e2a993f9e	1c08692a-5038-4282-9ab5-8e764bf170a6	nextflow run workflows/mtbcore.nf -c nextflow.config
+2023-11-30 18:57:16	4.9s	friendly_hodgkin	ERR	c76c9449416e4f4fee22f12e2a993f9e	2c80430b-7399-4675-8197-e55a8181f168	nextflow run workflows/mtbcore.nf -c nextflow.config
+2023-11-30 19:00:29	6.4s	ridiculous_heyrovsky	ERR	c76c9449416e4f4fee22f12e2a993f9e	c33ca798-27e0-4316-8b71-70fae5fd56e7	nextflow run workflows/mtbcore.nf -c nextflow.config
+2023-11-30 19:12:52	21.2s	scruffy_legentil	ERR	c76c9449416e4f4fee22f12e2a993f9e	89f82de2-edf4-4f19-a794-eb460672ca6e	nextflow run workflows/mtbcore.nf -c nextflow.config
+2023-11-30 19:14:24	22s	cheesy_bernard	OK	c76c9449416e4f4fee22f12e2a993f9e	e4ef4cae-a2b8-4c6f-8a59-e4d7c99219bd	nextflow run workflows/mtbcore.nf -c nextflow.config
+2023-11-30 19:16:41	19.8s	gigantic_lagrange	OK	c76c9449416e4f4fee22f12e2a993f9e	fe57d412-4954-4387-8c66-8b9dbd1eed41	nextflow run workflows/mtbcore.nf -c nextflow.config
+2023-11-30 19:18:19	18.1s	voluminous_cuvier	OK	c76c9449416e4f4fee22f12e2a993f9e	5c6922b3-1457-4d8f-8073-6e69fdb5d61d	nextflow run workflows/mtbcore.nf -c nextflow.config
+2023-12-01 16:11:13	7.8s	curious_hypatia	ERR	417631f2be5276cbf8044c70f997482e	78b69177-ee3a-45aa-8464-ea9ed86d0d6c	nextflow run workflows/mtbcore.nf -c nextflow.config
+2023-12-01 16:12:25	5.9s	friendly_edison	ERR	5a837d42e3f9bbc45479d984594d5cd9	38f824ec-527e-47e5-82d0-3c1c5592333c	nextflow run workflows/mtbcore.nf -c nextflow.config
+2023-12-01 16:13:05	11.4s	naughty_newton	ERR	84412141dba94981e248c280d53dae67	2abbec7f-d5cc-4262-9db7-4e6bcf94f3a2	nextflow run workflows/mtbcore.nf -c nextflow.config
+2023-12-01 16:15:03	4s	stupefied_payne	OK	730baf5fe253585fd91fdddfbf20fd90	776c571e-0696-44d2-a5d6-7870f981c539	nextflow run workflows/mtbcore.nf -c nextflow.config
+2023-12-01 16:20:20	9.8s	wise_lamarr	ERR	a1cdaa0f2928d5c7ac3914518112582f	9ef474d4-d090-4c2b-8179-4fb1b542418d	nextflow run workflows/mtbcore.nf -c nextflow.config
+2023-12-01 16:21:41	9.7s	serene_gautier	ERR	a1cdaa0f2928d5c7ac3914518112582f	5b1d9277-592b-4094-98c4-8b30f8d86b53	nextflow run workflows/mtbcore.nf -c nextflow.config
+2023-12-01 16:24:58	13s	silly_brahmagupta	ERR	a1cdaa0f2928d5c7ac3914518112582f	5b1d9277-592b-4094-98c4-8b30f8d86b53	nextflow run workflows/mtbcore.nf -c nextflow.config -resume
+2023-12-01 16:25:33	11.3s	small_mestorf	ERR	a1cdaa0f2928d5c7ac3914518112582f	5b1d9277-592b-4094-98c4-8b30f8d86b53	nextflow run workflows/mtbcore.nf -c nextflow.config -resume
+2023-12-01 16:26:09	10s	mad_bassi	ERR	a1cdaa0f2928d5c7ac3914518112582f	5b1d9277-592b-4094-98c4-8b30f8d86b53	nextflow run workflows/mtbcore.nf -c nextflow.config -resume
+2023-12-01 16:26:57	19.1s	distracted_boyd	ERR	a1cdaa0f2928d5c7ac3914518112582f	5b1d9277-592b-4094-98c4-8b30f8d86b53	nextflow run workflows/mtbcore.nf -c nextflow.config -resume
+2023-12-01 16:31:10	5.2s	nice_pauling	OK	42569aeb29d43fb16bebd9399af71fd3	9d2c6700-268f-4045-8a70-d9afe070176f	nextflow run workflows/mtbcore.nf
+2023-12-01 16:32:22	6.4s	cranky_feynman	ERR	ffa99b80c32926794baf54ca444eadfc	9d2c6700-268f-4045-8a70-d9afe070176f	nextflow run workflows/mtbcore.nf -c nextflow.config -resume
+2023-12-01 16:35:38	6.8s	furious_golick	ERR	ffa99b80c32926794baf54ca444eadfc	9d2c6700-268f-4045-8a70-d9afe070176f	nextflow run workflows/mtbcore.nf -c nextflow.config -resume
+2023-12-01 16:36:50	6.1s	golden_noether	ERR	ffa99b80c32926794baf54ca444eadfc	9d2c6700-268f-4045-8a70-d9afe070176f	nextflow run workflows/mtbcore.nf -c nextflow.config -resume
+2023-12-01 16:39:39	8.7s	cheeky_monod	ERR	ffa99b80c32926794baf54ca444eadfc	9d2c6700-268f-4045-8a70-d9afe070176f	nextflow run workflows/mtbcore.nf -c nextflow.config -resume
+2023-12-01 16:41:12	7.1s	festering_venter	OK	cccf23e9e90a7529a0a04b7b593ae4b7	9d2c6700-268f-4045-8a70-d9afe070176f	nextflow run workflows/mtbcore.nf -c nextflow.config -resume
+2023-12-01 16:42:02	9.2s	deadly_kalam	ERR	ffa99b80c32926794baf54ca444eadfc	9d2c6700-268f-4045-8a70-d9afe070176f	nextflow run workflows/mtbcore.nf -c nextflow.config -resume
+2023-12-01 16:45:36	6.6s	big_heyrovsky	ERR	ffa99b80c32926794baf54ca444eadfc	9d2c6700-268f-4045-8a70-d9afe070176f	nextflow run workflows/mtbcore.nf -c nextflow.config -resume
+2023-12-01 16:48:25	6.6s	fervent_payne	ERR	ffa99b80c32926794baf54ca444eadfc	9d2c6700-268f-4045-8a70-d9afe070176f	nextflow run workflows/mtbcore.nf -c nextflow.config -resume
+2023-12-01 16:52:42	2.4s	compassionate_caravaggio	ERR	ffa99b80c32926794baf54ca444eadfc	9d2c6700-268f-4045-8a70-d9afe070176f	nextflow run workflows/mtbcore.nf -c nextflow.config -resume
+2023-12-01 16:59:14	2.4s	magical_newton	OK	7871bc8e2162b148a351bbbae31954a2	9d2c6700-268f-4045-8a70-d9afe070176f	nextflow run workflows/mtbcore.nf -c nextflow.config -resume
+2023-12-01 17:08:30	2.5s	distraught_wright	ERR	5fdbcbd7ad8a2111f9120482a1cc87b0	9d2c6700-268f-4045-8a70-d9afe070176f	nextflow run workflows/mtbcore.nf -c nextflow.config -resume
+2023-12-01 17:09:11	2.4s	soggy_sinoussi	OK	065f13d7b92d9a89e4b6fe2f51d0aa1d	9d2c6700-268f-4045-8a70-d9afe070176f	nextflow run workflows/mtbcore.nf -c nextflow.config -resume
+2023-12-01 17:09:58	1m 44s	maniac_cuvier	OK	c51a1d5da9120d5b73a6f29e5a1a860f	9d2c6700-268f-4045-8a70-d9afe070176f	nextflow run workflows/mtbcore.nf -c nextflow.config -resume
+2023-12-01 17:18:02	1m 32s	sleepy_heyrovsky	OK	c51a1d5da9120d5b73a6f29e5a1a860f	eae2e7bd-fa8a-4ee6-a2d9-8badaf3e9959	nextflow run workflows/mtbcore.nf -c nextflow.config
+2023-12-01 17:21:48	3.2s	nauseous_boyd	ERR	5fdbcbd7ad8a2111f9120482a1cc87b0	caa5be0b-42bf-458e-96b9-0c449e3a677a	nextflow run workflows/mtbcore.nf -c nextflow.config
+2023-12-01 17:24:23	1.9s	golden_shannon	ERR	5fdbcbd7ad8a2111f9120482a1cc87b0	939685ec-19ab-4af9-bb1a-25bb000667e5	nextflow run workflows/mtbcore.nf -c nextflow.config
+2023-12-01 17:26:47	21.9s	distraught_volta	ERR	5fdbcbd7ad8a2111f9120482a1cc87b0	37747fcd-5726-494e-b9ef-6ea4ebd8577c	nextflow run workflows/mtbcore.nf -c nextflow.config
+2023-12-01 17:28:43	1m 26s	gloomy_sax	OK	5fdbcbd7ad8a2111f9120482a1cc87b0	4207953c-9623-4af9-a921-ca3a7f137630	nextflow run workflows/mtbcore.nf -c nextflow.config
+2023-12-01 17:33:14	1m 18s	golden_euler	OK	5fdbcbd7ad8a2111f9120482a1cc87b0	9b112220-68fc-467c-90a9-7358b644085e	nextflow run workflows/mtbcore.nf -c nextflow.config
+2023-12-09 16:43:39	2.1s	agitated_agnesi	OK	cfabfe11bb310a12228a1c8fbaeb201e	2fd11eec-8fec-45da-b113-dd9eb1f21a5f	nextflow run workflows/mtbcore.nf
+2023-12-09 16:44:21	3m 21s	mighty_gutenberg	OK	5fdbcbd7ad8a2111f9120482a1cc87b0	2fd11eec-8fec-45da-b113-dd9eb1f21a5f	nextflow run workflows/mtbcore.nf -resume
+2023-12-09 23:55:45	3.8s	furious_pauling	ERR	5fdbcbd7ad8a2111f9120482a1cc87b0	04f3df44-286f-40f6-9a99-629c7702d424	nextflow run workflows/mtbcore.nf
+2023-12-09 23:56:21	-	sick_chandrasekhar	-	5fdbcbd7ad8a2111f9120482a1cc87b0	f583bcad-dd8c-4979-83cf-39f70eae1e8a	nextflow run workflows/mtbcore.nf
+2023-12-10 01:42:12	1m 50s	evil_meitner	OK	5fdbcbd7ad8a2111f9120482a1cc87b0	6f35f197-d3e4-4514-bc19-e678be4cca06	nextflow run workflows/mtbcore.nf
+2023-12-10 02:08:50	3m 33s	amazing_koch	ERR	5fdbcbd7ad8a2111f9120482a1cc87b0	c3619eda-3f2c-4d37-bd79-1046eb30cbb7	nextflow run workflows/mtbcore.nf

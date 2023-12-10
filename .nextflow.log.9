@@ -1,0 +1,102 @@
+Dec-09 16:44:19.953 [main] DEBUG nextflow.cli.Launcher - $> nextflow run workflows/mtbcore.nf -resume
+Dec-09 16:44:20.150 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 23.04.4
+Dec-09 16:44:20.191 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/odette/.nextflow/plugins; core-plugins: nf-amazon@1.16.2,nf-azure@1.0.1,nf-codecommit@0.1.4,nf-console@1.0.5,nf-ga4gh@1.0.5,nf-google@1.7.3-patch1,nf-tower@1.5.12,nf-wave@0.8.4
+Dec-09 16:44:20.222 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Dec-09 16:44:20.225 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Dec-09 16:44:20.233 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Dec-09 16:44:20.284 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Dec-09 16:44:20.349 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /home/odette/mbtCore/nextflow.config
+Dec-09 16:44:20.351 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/odette/mbtCore/nextflow.config
+Dec-09 16:44:20.393 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Dec-09 16:44:21.353 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 by global default
+Dec-09 16:44:21.372 [main] INFO  nextflow.cli.CmdRun - Launching `workflows/mtbcore.nf` [mighty_gutenberg] DSL2 - revision: 5fdbcbd7ad
+Dec-09 16:44:21.372 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Dec-09 16:44:21.372 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Dec-09 16:44:21.430 [main] DEBUG nextflow.secret.LocalSecretsProvider - Secrets store: /home/odette/.nextflow/secrets/store.json
+Dec-09 16:44:21.441 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@5f2de715] - activable => nextflow.secret.LocalSecretsProvider@5f2de715
+Dec-09 16:44:21.556 [main] DEBUG nextflow.Session - Session UUID: 2fd11eec-8fec-45da-b113-dd9eb1f21a5f
+Dec-09 16:44:21.556 [main] DEBUG nextflow.Session - Run name: mighty_gutenberg
+Dec-09 16:44:21.558 [main] DEBUG nextflow.Session - Executor pool size: 4
+Dec-09 16:44:21.585 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=12; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Dec-09 16:44:21.631 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 23.04.4 build 5881
+  Created: 25-09-2023 15:34 UTC (18:34 EAST)
+  System: Linux 6.2.0-37-generic
+  Runtime: Groovy 3.0.16 on OpenJDK 64-Bit Server VM 11.0.1+13-LTS
+  Encoding: UTF-8 (UTF-8)
+  Process: 39459@Odette [127.0.1.1]
+  CPUs: 4 - Mem: 7.6 GB (136.1 MB) - Swap: 2 GB (1 GB)
+Dec-09 16:44:21.688 [main] DEBUG nextflow.Session - Work-dir: /home/odette/mbtCore/work [ext2/ext3]
+Dec-09 16:44:21.689 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/odette/mbtCore/workflows/bin
+Dec-09 16:44:21.705 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Dec-09 16:44:21.720 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Dec-09 16:44:21.751 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Dec-09 16:44:21.769 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 5; maxThreads: 1000
+Dec-09 16:44:21.892 [main] DEBUG nextflow.Session - Session start
+Dec-09 16:44:22.318 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Dec-09 16:44:22.341 [main] INFO  nextflow.Nextflow - 
+M T B - NF P I P E L I N E 
+
+Dec-09 16:44:23.218 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Dec-09 16:44:23.219 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Dec-09 16:44:23.230 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Dec-09 16:44:23.239 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=4; memory=7.6 GB; capacity=4; pollInterval=100ms; dumpInterval=5m
+Dec-09 16:44:23.417 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Dec-09 16:44:23.418 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Dec-09 16:44:23.444 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Dec-09 16:44:23.446 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Dec-09 16:44:23.456 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: FASTQC, CREATINGDICTFILE, INDEX
+Dec-09 16:44:23.456 [main] DEBUG nextflow.Session - Igniting dataflow network (4)
+Dec-09 16:44:23.468 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > INDEX
+Dec-09 16:44:23.470 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > CREATINGDICTFILE
+Dec-09 16:44:23.471 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > FASTQC
+Dec-09 16:44:23.472 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Dec-09 16:44:23.472 [main] DEBUG nextflow.Session - Session await
+Dec-09 16:44:23.471 [PathVisitor-1] DEBUG nextflow.file.PathVisitor - files for syntax: glob; folder: /home/odette/mbtCore/data/; pattern: *_{1,2}.*; options: [checkIfExists:true]
+Dec-09 16:44:23.924 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Dec-09 16:44:23.928 [Task submitter] INFO  nextflow.Session - [22/9e7ab1] Submitted process > CREATINGDICTFILE
+Dec-09 16:44:23.945 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Dec-09 16:44:23.949 [Task submitter] INFO  nextflow.Session - [da/c5c141] Submitted process > FASTQC (3)
+Dec-09 16:44:23.969 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Dec-09 16:44:23.971 [Task submitter] INFO  nextflow.Session - [02/41d75f] Submitted process > FASTQC (1)
+Dec-09 16:44:23.981 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Dec-09 16:44:23.982 [Task submitter] INFO  nextflow.Session - [fc/eeb640] Submitted process > FASTQC (2)
+Dec-09 16:44:43.026 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: CREATINGDICTFILE; status: COMPLETED; exit: 0; error: -; workDir: /home/odette/mbtCore/work/22/9e7ab19dd02a5798dd083c964417c4]
+Dec-09 16:44:43.034 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Dec-09 16:44:43.034 [Task submitter] INFO  nextflow.Session - [10/5e0fe7] Submitted process > FASTQC (4)
+Dec-09 16:44:43.235 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'PublishDir' minSize=10; maxSize=12; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Dec-09 16:45:34.809 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 5; name: FASTQC (3); status: COMPLETED; exit: 0; error: -; workDir: /home/odette/mbtCore/work/da/c5c141058d3c343919e8fad6f35877]
+Dec-09 16:45:34.820 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Dec-09 16:45:34.821 [Task submitter] INFO  nextflow.Session - [d1/f21b7b] Submitted process > INDEX
+Dec-09 16:45:37.030 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: INDEX; status: COMPLETED; exit: 0; error: -; workDir: /home/odette/mbtCore/work/d1/f21b7bee7eff4079ffd6ab049a6e1e]
+Dec-09 16:45:37.045 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Dec-09 16:45:37.046 [Task submitter] INFO  nextflow.Session - [56/d3502f] Submitted process > FASTQC (6)
+Dec-09 16:46:28.715 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: FASTQC (1); status: COMPLETED; exit: 0; error: -; workDir: /home/odette/mbtCore/work/02/41d75f73da74be2c7f673b87db2b2f]
+Dec-09 16:46:28.720 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Dec-09 16:46:28.735 [Task submitter] INFO  nextflow.Session - [3e/2c7e9d] Submitted process > FASTQC (7)
+Dec-09 16:46:28.787 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 6; name: FASTQC (4); status: COMPLETED; exit: 0; error: -; workDir: /home/odette/mbtCore/work/10/5e0fe7721d054d941b70a673303bd6]
+Dec-09 16:46:28.793 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Dec-09 16:46:28.793 [Task submitter] INFO  nextflow.Session - [18/f3fab4] Submitted process > FASTQC (9)
+Dec-09 16:46:40.604 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: FASTQC (2); status: COMPLETED; exit: 0; error: -; workDir: /home/odette/mbtCore/work/fc/eeb6402d1aa6c5c7a57d0a54760a69]
+Dec-09 16:46:40.628 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Dec-09 16:46:40.629 [Task submitter] INFO  nextflow.Session - [fc/15b51c] Submitted process > FASTQC (8)
+Dec-09 16:47:01.702 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 8; name: FASTQC (6); status: COMPLETED; exit: 0; error: -; workDir: /home/odette/mbtCore/work/56/d3502f6e6fde3dacfe403f357ccbf6]
+Dec-09 16:47:01.739 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Dec-09 16:47:01.741 [Task submitter] INFO  nextflow.Session - [dc/a9bd7a] Submitted process > FASTQC (5)
+Dec-09 16:47:11.354 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 10; name: FASTQC (8); status: COMPLETED; exit: 0; error: -; workDir: /home/odette/mbtCore/work/fc/15b51caf95a5347950007dc07cede2]
+Dec-09 16:47:11.368 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Dec-09 16:47:11.368 [Task submitter] INFO  nextflow.Session - [52/d3e954] Submitted process > FASTQC (11)
+Dec-09 16:47:25.371 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 11; name: FASTQC (9); status: COMPLETED; exit: 0; error: -; workDir: /home/odette/mbtCore/work/18/f3fab44b6b2a4b150d9289f033db02]
+Dec-09 16:47:25.380 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Dec-09 16:47:25.386 [Task submitter] INFO  nextflow.Session - [63/79cf19] Submitted process > FASTQC (10)
+Dec-09 16:47:28.055 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 9; name: FASTQC (7); status: COMPLETED; exit: 0; error: -; workDir: /home/odette/mbtCore/work/3e/2c7e9d732dab028ddd3fec7d50e926]
+Dec-09 16:47:28.084 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 7; name: FASTQC (5); status: COMPLETED; exit: 0; error: -; workDir: /home/odette/mbtCore/work/dc/a9bd7acdbe576a68535184e285f71d]
+Dec-09 16:47:40.618 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 12; name: FASTQC (10); status: COMPLETED; exit: 0; error: -; workDir: /home/odette/mbtCore/work/63/79cf196a168228b762309e77d5b716]
+Dec-09 16:47:41.186 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 13; name: FASTQC (11); status: COMPLETED; exit: 0; error: -; workDir: /home/odette/mbtCore/work/52/d3e9542ea730a9c63d883a94bcc456]
+Dec-09 16:47:41.204 [main] DEBUG nextflow.Session - Session await > all processes finished
+Dec-09 16:47:41.215 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Dec-09 16:47:41.227 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'PublishDir' shutdown completed (hard=false)
+Dec-09 16:47:41.249 [main] DEBUG nextflow.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=13; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=12m 41s; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=4; peakCpus=4; peakMemory=0; ]
+Dec-09 16:47:41.574 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Dec-09 16:47:41.633 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+Dec-09 16:47:41.639 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye
